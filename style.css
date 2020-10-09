@@ -1,24 +1,28 @@
 
-li{ color: #f0ffff;}
-b { color: #000000;}
+h4{ color: #f0ffff;}
+h3{ color: #000000;}
 h1{ color: #ffff00;}
 h2{ color: #a52a2a}
 
-body{background-color: #808000;}
+body{background-color: #808000;
+     margin: 2px;
+}
 
-p{text-align: center;}
+h3{text-align: center;}
 
-li{text-align: center;}
+h4{text-align: center;}
 
 .header{display: flex;
         justify-content: center;     
 }
 
 .menu{display: flex;
-      justify-content: flex-end;  
+      justify-content: space-around;
+      margin: 5px;
+      padding: 5px;  
 }
 
-.menu2{display: flex;
+.footer{display: flex;
        justify-content: flex-end;
 }
 
@@ -27,25 +31,37 @@ li{text-align: center;}
 }
 
 .D1{display: flex;
-         justify-content: center;
+    justify-content: center;
+    border: 2px solid #000000;
+    border-radius: 50px;
 }
 
 .D2{display: flex;
-      justify-content: center;
+    justify-content: center;
+    border: 2px solid #000000;
+    border-radius: 50px; 
 }
 
 .D3{display: flex;
-      justify-content: center;
+    justify-content: center;
+    border: 2px solid #000000;
+    border-radius: 50px;  
 }
 
 .D4{display: flex;
-      justify-content: center;
+    justify-content: center;
+    border: 2px solid #000000;
+    border-radius: 50px;  
 }
 
 .D5{display: flex;
-      justify-content: center;
+    justify-content: center;
+    border: 2px solid #000000;
+    border-radius: 50px; 
 }
 
 .D6{display: flex;
-      justify-content: center;
+    justify-content: center;
+    border: 2px solid #000000;
+    border-radius: 50px;  
 }
